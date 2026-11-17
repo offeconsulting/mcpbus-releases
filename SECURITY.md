@@ -15,7 +15,7 @@ Please include the mcpbus version (`mcpbus version`), the database server and it
 
 In scope:
 
-- SQL that does more than the database's level (`schema`, `read`, `readwrite`), its exceptions and the server switches allow.
+- SQL that does more than the database's level (`schema`, `read`, `readwrite`), its overrides and the server switches allow.
 - Writes that run without approval when the configuration asks for `strict`.
 - String or binary values in results that come back unhashed although hashing is on.
 - `mcpbus.exe` or `install.ps1` doing something other than what the [README](README.md) describes, or a way to make `install.ps1` install a file that is not the signed release.
